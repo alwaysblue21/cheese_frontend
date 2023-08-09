@@ -44,7 +44,6 @@ export const updateAction = async ({request, params}) => {
 };
 
 
-// delete action
 export const deleteAction = async({params}) => {
     const id = params.id
     await fetch(`${baseUrl}/cheese/${id}`, {

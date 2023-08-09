@@ -40,7 +40,7 @@ export const updateAction = async ({request, params}) => {
         body: JSON.stringify(updatedCheese)
     })
 
-    return redirect (`/${id}`)
+    return redirect (`/`)
 };
 
 

@@ -9,9 +9,9 @@ function Index(props) {
         <h2>Create a cheese</h2>
         <Form action="/create" method="post">
             <input type="text" name="name" placeholder="cheese's name"/>
-            <input type="text" name="country of origin" placeholder="cheese's country of origin"/>
+            <input type="text" name="country of origin" placeholder="cheese's country"/>
             <input type="text" name="image" placeholder="cheese's image"/>
-            <input type="submit" value="Create Cheese"/>
+            <input className="button" type="submit" value="Create Cheese"/>
         </Form>
       {cheeses.map((cheese, index) => {
         return (

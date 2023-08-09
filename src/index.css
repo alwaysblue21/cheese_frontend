@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  background-color: bisque;
+}
+
+.cheese {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr), auto;
+}
+
+h1 {
+  font-family: cursive;
+}
+
+input {
+  background-color: white;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  margin: 5px
+}
+
+.button {
+  background-color: silver;
+}
+
+img {
+  width: 22em;
+  height: 15em;
+}
